@@ -1,0 +1,100 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.up {
+  font-size: 15px;
+  font-weight: bold;
+  color: #64748b;
+  font-family: 'roboto';
+}
+
+.category-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 15px;
+  font-weight: bold;
+  color: #64748b;
+  font-family: 'roboto';
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.unordered-list-category {
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+
+.category-list {
+  list-style-type: none;
+}
+
+.category-list1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.category-button {
+  border: none;
+  background-color: transparent;
+  height: 25px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #64748b;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+}
+
+.category-rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: #12022f;
+  font-family: 'roboto';
+}
+
+.stars {
+  width: 150px;
+  height: 20px;
+}
+
+.up {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #64748b;
+  margin-left: 15px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.clear-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 400;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
